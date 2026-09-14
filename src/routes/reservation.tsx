@@ -35,7 +35,6 @@ function Reservation() {
   useEffect(() => {
     setTime("");
     setBookedTimes([]);
-    setMessage("");
 
     if (!date || isMonday(date)) return;
 
