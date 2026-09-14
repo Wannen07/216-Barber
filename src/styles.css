@@ -183,3 +183,343 @@
   }
 }
 :root{--barber-bg:#090909;--barber-panel:#111;--barber-ink:#f5f2eb;--barber-muted:#aaa59c;--barber-gold:#c7a35a}html{scroll-behavior:smooth}body{margin:0;background:var(--barber-bg);color:var(--barber-ink);font-family:Arial,Helvetica,sans-serif}.barber-site{overflow:hidden}.nav{position:fixed;z-index:50;top:0;left:0;right:0;height:74px;display:flex;align-items:center;gap:30px;padding:0 5vw;background:linear-gradient(to bottom,rgba(0,0,0,.92),transparent);backdrop-filter:blur(8px)}.brand{display:flex;align-items:baseline;gap:8px;color:inherit;text-decoration:none}.brand b{font-size:28px;letter-spacing:-2px}.brand span{font-size:10px;letter-spacing:3px}.navlinks{margin-left:auto;display:flex;gap:28px}.nav a{color:var(--barber-ink);text-decoration:none;font-size:12px;letter-spacing:1px}.navcta,.primary{border:1px solid var(--barber-gold)!important;background:var(--barber-gold)!important;color:#0a0a0a!important;padding:13px 18px;text-decoration:none;font-weight:700}.hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:80px 7vw 30px;background:radial-gradient(circle at 72% 30%,#28231b 0,transparent 28%),linear-gradient(135deg,#070707 30%,#151515);box-sizing:border-box}.hex{position:absolute;right:-8vw;top:12vh;width:55vw;height:65vh;opacity:.17;background-image:linear-gradient(30deg,var(--barber-gold) 12%,transparent 12.5%,transparent 87%,var(--barber-gold) 87.5%),linear-gradient(150deg,var(--barber-gold) 12%,transparent 12.5%,transparent 87%,var(--barber-gold) 87.5%);background-size:80px 140px;transform:skewX(-8deg)}.hero-inner{position:relative;z-index:2;max-width:900px}.eyebrow{color:var(--barber-gold);font-size:11px;letter-spacing:4px;font-weight:700}.hero h1{font-size:clamp(68px,13vw,190px);line-height:.75;margin:35px 0 25px;letter-spacing:-.075em}.hero h1 span{color:transparent;-webkit-text-stroke:1px var(--barber-gold)}.tagline{font-size:clamp(26px,4vw,55px);margin:0}.tagline em,.about i,.booking i{font-family:Georgia,serif;font-weight:400;color:var(--barber-gold)}.intro{max-width:520px;color:var(--barber-muted);font-size:17px;line-height:1.7}.actions{display:flex;gap:12px;margin-top:30px}.secondary{padding:13px 18px;border:1px solid #555;color:var(--barber-ink);text-decoration:none}.scroll{position:absolute;bottom:30px;right:5vw;color:var(--barber-muted);font-size:10px;letter-spacing:3px;text-decoration:none}.scroll span{color:var(--barber-gold);font-size:18px}.about,.services,.gallery,.why,.reviews,.booking,.contact{padding:120px 7vw}.about{display:grid;grid-template-columns:1fr 2fr;gap:5vw;background:#f1eee7;color:#111}.about h2,.section-head h2,.gallery h2,.reviews h2,.booking h2,.contact h2{font-size:clamp(42px,7vw,92px);line-height:.95;letter-spacing:-.05em;margin:15px 0 30px}.about>div>p{max-width:620px;color:#555;line-height:1.8}.services{background:#0a0a0a}.section-head{margin-bottom:55px}.service-grid{border-top:1px solid #333}.service{display:grid;grid-template-columns:70px 1fr auto;align-items:center;border-bottom:1px solid #292929;padding:25px 5px;transition:.3s}.service:hover{padding-left:18px;background:#111}.service span{color:var(--barber-gold);font-size:11px}.service h3{font-size:clamp(24px,3vw,40px);margin:0}.service p{color:var(--barber-muted)}.gallery{background:#111}.gallery-copy{max-width:800px}.gallery-cards{display:grid;grid-template-columns:1.25fr .8fr .8fr;gap:16px;margin-top:55px}.photo-card{height:460px;position:relative;background:linear-gradient(145deg,#292929,#080808);border:1px solid #2d2d2d;overflow:hidden}.photo-card:before{content:"";position:absolute;inset:12%;border:1px solid rgba(199,163,90,.25);transform:rotate(45deg)}.photo-card span{position:absolute;bottom:20px;left:20px;font-size:10px;letter-spacing:3px;color:var(--barber-gold)}.photo-two{margin-top:80px}.photo-three{margin-top:25px}.why{background:#eeeae2;color:#111}.why-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:45px;border-top:1px solid #bbb}.why-grid>div{padding:35px 20px;border-right:1px solid #bbb}.why-grid span{color:#8b6d33;font-size:11px}.why-grid h3{font-size:22px}.reviews{text-align:center}.review-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:1000px;margin:50px auto}.review-grid blockquote{margin:0;padding:45px;border:1px solid #2b2b2b;font-family:Georgia,serif;font-size:24px}.review-grid small{display:block;margin-top:25px;color:var(--barber-muted);font-family:Arial;font-size:11px}.booking{text-align:center;background:radial-gradient(circle,#282116 0,#0a0a0a 55%)}.big{display:inline-block;margin-top:20px;padding:18px 25px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:50px;background:#efebe3;color:#111}.contact a{color:#7b5d25;font-size:22px}.map{min-height:300px;background:#d7d1c6;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid #c0b8aa}.map span{font-size:12px;letter-spacing:3px}.map p{color:#777}footer{padding:55px 7vw;display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:30px;align-items:start;border-top:1px solid #222}footer>div{display:flex;flex-direction:column;gap:10px}footer a,footer span{color:var(--barber-muted);font-size:12px;text-decoration:none}.floating-call{position:fixed;z-index:60;right:20px;bottom:20px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:var(--barber-gold);color:#111;text-decoration:none;font-size:22px;box-shadow:0 8px 30px #000}.hero-inner,.about>div,.service,.gallery-copy,.photo-card,.why-grid>div,.review-grid blockquote{animation:rise .8s both;animation-timeline:view();animation-range:entry 5% cover 32%}@keyframes rise{from{opacity:0;transform:translateY(45px)}to{opacity:1;transform:none}}@media(max-width:760px){.nav{height:64px;padding:0 18px}.navlinks{display:none}.navcta{margin-left:auto;padding:10px 12px!important}.hero{padding:85px 22px 30px}.hero h1{font-size:72px;line-height:.82}.hex{width:100vw;right:-45vw}.actions{flex-direction:column;align-items:stretch}.actions a{text-align:center}.about,.services,.gallery,.why,.reviews,.booking,.contact{padding:80px 22px}.about,.contact{grid-template-columns:1fr}.service{grid-template-columns:42px 1fr}.service p{grid-column:2}.gallery-cards{grid-template-columns:1fr 1fr}.photo-card{height:320px}.photo-one{grid-column:1/-1}.photo-two,.photo-three{margin-top:0}.why-grid{grid-template-columns:1fr 1fr}.review-grid{grid-template-columns:1fr}footer{grid-template-columns:1fr 1fr}.floating-call{bottom:16px;right:16px}}
+
+/* ===== 216 BARBER — RESERVATION ===== */
+
+.reservation-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(184, 150, 88, 0.09), transparent 35%),
+    #080808;
+  color: #f5f5f5;
+  padding: 24px 18px 60px;
+}
+
+.reservation-back {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+
+.reservation-card {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.reservation-card .eyebrow {
+  margin-bottom: 10px;
+}
+
+.reservation-card h1 {
+  margin: 0;
+  font-size: clamp(38px, 10vw, 64px);
+  line-height: 0.95;
+  letter-spacing: -2px;
+}
+
+.reservation-card h1 i {
+  font-weight: 300;
+  color: #b89b63;
+}
+
+.reservation-intro {
+  color: #999;
+  line-height: 1.6;
+  margin: 20px 0 35px;
+}
+
+.reservation-form {
+  display: grid;
+  gap: 20px;
+}
+
+.reservation-form label,
+.reservation-label {
+  display: grid;
+  gap: 9px;
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #292929;
+  background: #111;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  font: inherit;
+  outline: none;
+}
+
+.reservation-form input:focus,
+.reservation-form select:focus {
+  border-color: #b89b63;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+  margin-top: 10px;
+}
+
+.time {
+  border: 1px solid #292929;
+  background: #111;
+  color: #ddd;
+  padding: 13px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time:hover {
+  border-color: #777;
+}
+
+.time.active {
+  background: #b89b63;
+  border-color: #b89b63;
+  color: #080808;
+  font-weight: 700;
+}
+
+.reservation-submit {
+  margin-top: 8px;
+  width: 100%;
+  padding: 18px;
+  border: 0;
+  background: #f3f3f3;
+  color: #080808;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.reservation-submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.reservation-message {
+  padding: 14px;
+  border: 1px solid #292929;
+  background: #111;
+  line-height: 1.5;
+}
+
+.reservation-warning {
+  color: #b89b63;
+  font-size: 14px;
+}
+
+.reservation-info {
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid #222;
+  display: grid;
+  gap: 7px;
+}
+
+.reservation-info span {
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.reservation-info b {
+  font-size: 22px;
+}
+
+.reservation-info small {
+  color: #777;
+}
+
+@media (min-width: 700px) {
+  .reservation-page {
+    padding: 50px 40px 80px;
+  }
+
+  .time-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+/* ===== 216 BARBER — ADMIN ===== */
+
+.admin-page {
+  min-height: 100vh;
+  background: #080808;
+  color: #f5f5f5;
+  padding: 28px 18px 70px;
+}
+
+.admin-login {
+  width: 100%;
+  max-width: 430px;
+  margin: 15vh auto 0;
+}
+
+.admin-login h1,
+.admin-header h1 {
+  margin: 5px 0 30px;
+  font-size: clamp(36px, 9vw, 58px);
+  letter-spacing: -2px;
+}
+
+.admin-login form {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-login input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 17px;
+  background: #111;
+  border: 1px solid #292929;
+  color: white;
+  outline: none;
+}
+
+.admin-login input:focus {
+  border-color: #b89b63;
+}
+
+.admin-login button {
+  padding: 17px;
+  border: 0;
+  background: #f5f5f5;
+  color: #080808;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.admin-header {
+  max-width: 900px;
+  margin: 0 auto 45px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.admin-header span {
+  margin-bottom: 32px;
+  color: #b89b63;
+  font-size: 13px;
+}
+
+.admin-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 45px;
+}
+
+.admin-section h2 {
+  margin-bottom: 18px;
+  font-size: 19px;
+}
+
+.admin-list {
+  display: grid;
+  gap: 12px;
+}
+
+.appointment-card {
+  padding: 18px;
+  background: #111;
+  border: 1px solid #222;
+}
+
+.appointment-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.appointment-top strong {
+  font-size: 18px;
+}
+
+.appointment-top span {
+  color: #b89b63;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.appointment-card p {
+  color: #999;
+}
+
+.appointment-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.appointment-details a {
+  color: #b89b63;
+  text-decoration: none;
+}
+
+.appointment-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.appointment-actions button {
+  padding: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.appointment-actions .approve {
+  border: 0;
+  background: #f5f5f5;
+  color: #080808;
+}
+
+.appointment-actions .refuse {
+  border: 1px solid #333;
+  background: transparent;
+  color: #aaa;
+}
+
+.admin-empty {
+  color: #777;
+  font-size: 14px;
+}
+
+.admin-message {
+  max-width: 900px;
+  margin: 0 auto 25px;
+  padding: 14px;
+  border: 1px solid #b89b63;
+  color: #b89b63;
+}
+
+@media (min-width: 700px) {
+  .admin-page {
+    padding: 50px 40px 90px;
+  }
+
+  .appointment-card {
+    padding: 22px;
+  }
+}

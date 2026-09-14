@@ -38,6 +38,13 @@
   // Non-secret identity for local dev/build; the deploy sets the real values.
   // SECRETS (e.g. the fnf token) are NEVER here and NEVER in the Worker — the
   // platform Outbound Worker injects them on server-side egress.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "216-barber-db",
+      "database_id": "ed918475-2e7c-43e5-a2d9-8cba6cfc2924"
+    }
+  ],
   "vars": { "HF_ENV": "dev", "APP_SLUG": "app-slug-placeholder" },
 
   // ── OPT-IN INFRA (off by default) ────────────────────────────────
